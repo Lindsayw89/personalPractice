@@ -1,3 +1,16 @@
 body {
-    background-color: rgb(255, 175, 219);
+    background:repeating-linear-gradient(to right, rgb(214, 150, 182), rgb(174, 145, 175));
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gradient{
+    background: linear-gradient(to right, rgb(247, 100, 173), rgb(204, 113, 207), rgb(107, 54, 204));
+    height: 120px;
+}
+.textShadow {
+    text-shadow: 4px 4px 2px white;
+    background-color: rgb(59, 122, 93);
+    height: 120px;
+    font-size: 30px;
 }
