@@ -1,5 +1,5 @@
 body {
-    background:repeating-linear-gradient(to right, rgb(214, 150, 182), rgb(174, 145, 175));
+    background:repeating-linear-gradient(to right, rgb(206, 176, 191), rgb(174, 145, 175));
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,4 +23,14 @@ th {
 }
 td {
     background-color: red;
+}
+.clip {
+    height: 120px;
+    background-color: yellowgreen;
+    clip-path: circle();
+}
+.clip2 {
+    height: 120px;
+    background-color:rgb(185, 112, 214);
+    clip-path: 
 }
