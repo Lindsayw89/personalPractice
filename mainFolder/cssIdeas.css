@@ -9,8 +9,18 @@ p {
     height: 120px;
 }
 .textShadow {
-    text-shadow: 4px 4px 2px white;
+    text-shadow: 4px 4px 1px rgb(149, 127, 150);
     background-color: rgb(59, 122, 93);
     height: 120px;
     font-size: 30px;
+}
+.table {
+    background-color: rgb(111, 111, 226);
+    height: 120px;
+}
+th {
+    background-color:pink;
+}
+td {
+    background-color: red;
 }
