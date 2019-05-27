@@ -29,8 +29,18 @@ td {
     background-color: yellowgreen;
     clip-path: circle();
 }
-.clip2 {
-    height: 120px;
-    background-color:rgb(185, 112, 214);
-    clip-path: 
+.ovrfl {
+    border: 3px solid #4CAF50;
+  padding: 8px
 }
+.img1 {
+    float: right;
+  }
+  
+  .clearfix {
+    overflow: auto;
+  }
+  
+  .img2 {
+    float: right;
+  }
