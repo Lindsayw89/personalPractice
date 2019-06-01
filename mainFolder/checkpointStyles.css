@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(28, 45, 46);
+    color: white;
+    margin: 5%;
+}
+
+header {
+    background-color: rgb(130, 207, 207);
+}
+
+.grid-container {
+    display:grid;
+    grid-template-areas:
+     "about"
+     "articles"
+     "facebook"
+     "insta"
+     "section-1"
+     "section-2"
+     "section-3"
+
+}
+.about {
+    grid-area: about;
+}
+.articles {
+    grid-area: articles;
+}
+.facebook {
+    grid-area: facebook;
+}
+.insta {
+    grid-area: insta;
+}
+.section-1 {
+    grid-area: section-1;
+}
+.section-2 {
+    grid-area: section-2;
+}
+.section-3 {
+    grid-area: section-3;
+}
+h1 {
+    text-align: center;
+}
