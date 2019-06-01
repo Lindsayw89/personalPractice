@@ -6,19 +6,16 @@ body {
 
 header {
     background-color: rgb(130, 207, 207);
+    text-align: center;
+    padding: ;
 }
-
-.grid-container {
-    display:grid;
-    grid-template-areas:
-     "about"
-     "articles"
-     "facebook"
-     "insta"
-     "section-1"
-     "section-2"
-     "section-3"
-
+.logo {
+    font-size: 40px;
+    text-align: left;
+}
+h1 {
+    padding: 5%;
+}
 }
 .about {
     grid-area: about;
@@ -41,6 +38,39 @@ header {
 .section-3 {
     grid-area: section-3;
 }
-h1 {
-    text-align: center;
+div {
+    text-align: justify;
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+     "section-1 section-2 section-3";
+
+
+}
+div {
+    margin: 2%;
+}
+@media (max-width: 576px) {
+.grid-container {
+    display:grid;
+    grid-template-areas:
+        "about"
+        "articles"
+        "facebook"
+        "insta"
+        "section-1"
+        "section-2"
+        "section-3";
+
 }
