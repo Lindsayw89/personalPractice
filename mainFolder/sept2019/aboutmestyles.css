@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(185, 122, 159);
+    font-family: 'Manjari', sans-serif;
+
+}
+header{
+    color:rgb(110, 39, 101);
+    background-image: url(../images/purplebeachstar.jpg);
+    opacity: .72;
+    Line-height: 2;
+    background-size: cover;
+    background-position: bottom;
+    height: 425px;
+    font-size: 50px;
+    padding: 0px;
+
+}
+.bold{
+    opacity: 1.8;
+}
+h2, h3{
+    
+    text-shadow: 1.3px 1.3px white;
+
+}
+p{
+    color: rgb(110, 33, 129);
+    font-size: 30px;
+}

@@ -1,0 +1,35 @@
+.container-1{
+   display: flex;
+   align-items: flex-end;
+
+}
+.container-2{
+display:flex;
+FLEX-WRAP: WRAP;
+
+
+
+
+}
+.container-2-box {
+    FLEX-DIRECTION: ROW;
+
+
+
+}
+.container-1 div, .container-2 div{
+    border: 1px blue solid;
+    padding: 10px;
+}
+.box-1{
+    flex:1;
+
+}
+.box-2{
+    flex: 1;
+
+}
+.box-3{
+    flex: 1;
+
+}

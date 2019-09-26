@@ -1,0 +1,50 @@
+
+body {
+    background-color: lightseagreen;
+}
+
+.game{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 4% 24%;
+}
+
+.square {
+    width: 1.5em;
+    height: 1.5em;
+    border: 2px solid black;
+    font-size: 135px;
+    color:rgb(71, 38, 124);
+
+}
+div:onlick{
+ font-size: 70px;
+ 
+}
+
+@media (max-width: 800px ) {
+
+.game{
+        margin: 5% 18%;
+}
+    
+.square {
+        width: 2em;
+        height: 2em;
+        border: 2px solid black;
+        font-size: 65px;
+}
+
+   
+}
+@media (max-width: 578px ) {
+    .square {
+        width: 1em;
+        height: 1em;
+        border: 2px solid black;
+    }
+.game {
+    margin: 10% 20%;
+}
+
+}
